@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKAPUNIJA BizzHub | Entrepreneurship Ecosystem</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at top right, #1e40af, #0a265f);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-yellow-500 rounded-lg flex items-center justify-center text-white font-bold text-xl">I</div>
+                <div class="leading-none">
+                    <span class="block font-extrabold text-lg tracking-tight text-white transition-colors duration-300" id="logo-text">IKAPUNIJA</span>
+                    <span class="text-[10px] font-bold text-yellow-500 uppercase tracking-widest">Entrepreneurship</span>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center space-x-8 text-sm font-semibold text-white transition-colors duration-300" id="nav-links">
+                <a href="#beranda" class="hover:text-yellow-500 transition">Beranda</a>
+                <a href="#program" class="hover:text-yellow-500 transition">Program</a>
+                <a href="#database" class="hover:text-yellow-500 transition">Database</a>
+                <a href="#tim" class="hover:text-yellow-500 transition">Tim</a>
+                <button class="bg-yellow-500 text-blue-950 px-6 py-2.5 rounded-full hover:bg-yellow-400 transition-all shadow-lg shadow-yellow-500/20">
+                    Gabung Sekarang
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="beranda" class="hero-gradient min-h-screen flex items-center pt-20 overflow-hidden relative">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-white rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-10 right-10 w-96 h-96 bg-yellow-500 rounded-full blur-[150px]"></div>
+        </div>
+
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="space-y-8">
+                <div class="inline-flex items-center space-x-2 bg-blue-800/40 border border-blue-400/30 px-4 py-2 rounded-full text-blue-100 text-xs font-bold tracking-widest uppercase">
+                    <span class="flex h-2 w-2 rounded-full bg-yellow-500 animate-ping"></span>
+                    <span>Official Alumni Business Hub</span>
+                </div>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-[1.1]">
+                    Eskalasi Bisnis <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">Alumni PNJ.</span>
+                </h1>
+                <p class="text-blue-100 text-lg max-w-lg leading-relaxed opacity-80">
+                    Sinergi strategis yang mengintegrasikan networking eksklusif, inkubasi intensif, dan akses pendanaan bagi ekosistem pengusaha IKAPUNIJA.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#database" class="bg-white text-blue-900 text-center px-8 py-4 rounded-2xl font-bold hover:bg-yellow-500 hover:text-blue-900 transition-all transform hover:-translate-y-1 shadow-xl">
+                        Cari Database Bisnis →
+                    </a>
+                    <a href="#program" class="border border-white/30 text-white text-center px-8 py-4 rounded-2xl font-bold hover:bg-white/10 transition-all">
+                        Program Inkubasi
+                    </a>
+                </div>
+                
+                <div class="flex items-center space-x-6 pt-4">
+                    <div class="text-white">
+                        <p class="text-3xl font-bold">1,200+</p>
+                        <p class="text-xs text-blue-300 uppercase tracking-widest">Alumni Terdaftar</p>
+                    </div>
+                    <div class="h-10 w-px bg-white/20"></div>
+                    <div class="text-white">
+                        <p class="text-3xl font-bold">Rp 12M+</p>
+                        <p class="text-xs text-blue-300 uppercase tracking-widest">Valuasi Kolaborasi</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="relative hidden md:block">
+                <div class="bg-white/10 backdrop-blur-md p-4 rounded-[2rem] border border-white/20 shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Dashboard" class="rounded-[1.5rem] shadow-inner">
+                </div>
+                <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-2xl flex items-center space-x-4 animate-bounce-slow">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 text-xl">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-slate-500 font-bold uppercase">Potential Growth</p>
+                        <p class="text-xl font-extrabold text-slate-900">Rp 5.2 Miliar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="program" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-blue-600 font-bold tracking-[0.2em] uppercase text-sm mb-4">Core Pillars</h2>
+                <h3 class="text-4xl font-extrabold text-slate-900">Layanan Strategis Ekosistem</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="group p-8 rounded-[2.5rem] bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-500 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-blue-600 text-white rounded-2xl flex items-center justify-center text-2xl mb-8 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4 text-slate-900">Strategic Networking</h4>
+                    <p class="text-slate-500 leading-relaxed mb-6">Hubungkan bisnis Anda dengan ribuan alumni pengusaha sukses dari berbagai lintas angkatan PNJ.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-sm font-semibold text-slate-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-3"></i> Database Terverifikasi
+                        </li>
+                        <li class="flex items-center text-sm font-semibold text-slate-700">
+                            <i class="fas fa-check-circle text-blue-500 mr-3"></i> Monthly Business Meetup
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="group p-8 rounded-[2.5rem] bg-blue-900 text-white shadow-2xl shadow-blue-900/20 transform hover:-translate-y-2 transition-all duration-500 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-6 opacity-10 text-9xl">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="w-16 h-16 bg-yellow-500 text-blue-900 rounded-2xl flex items-center justify-center text-2xl mb-8">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Scale-up Incubation</h4>
+                    <p class="text-blue-100/70 leading-relaxed mb-6">Transformasi UMKM alumni menjadi bisnis yang scalable melalui kurikulum mentor praktisi.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-sm font-semibold text-white">
+                            <i class="fas fa-star text-yellow-500 mr-3"></i> 1-on-1 Mentorship
+                        </li>
+                        <li class="flex items-center text-sm font-semibold text-white">
+                            <i class="fas fa-star text-yellow-500 mr-3"></i> Klinik Bisnis Intensif
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="group p-8 rounded-[2.5rem] bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-green-500/10 transition-all duration-500 transform hover:-translate-y-2">
+                    <div class="w-16 h-16 bg-green-600 text-white rounded-2xl flex items-center justify-center text-2xl mb-8 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4 text-slate-900">Investment Club</h4>
+                    <p class="text-slate-500 leading-relaxed mb-6">Akses pendanaan eksklusif melalui konsorsium investor internal Alumni Investment Club (AIC).</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-sm font-semibold text-slate-700">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i> Pitching Demo Day
+                        </li>
+                        <li class="flex items-center text-sm font-semibold text-slate-700">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i> Business Matching
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="database" class="py-24 bg-slate-900 text-white relative overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+                <div class="max-w-xl">
+                    <h2 class="text-yellow-500 font-bold tracking-widest uppercase text-sm mb-4">Business Hub</h2>
+                    <h3 class="text-4xl font-extrabold">Cari Partner Bisnis Anda</h3>
+                </div>
+                <div class="flex bg-white/10 p-2 rounded-2xl border border-white/10 w-full md:w-auto">
+                    <input type="text" placeholder="Cari bidang usaha..." class="bg-transparent px-4 py-2 outline-none w-full md:w-64">
+                    <button class="bg-yellow-500 text-blue-900 px-6 py-2 rounded-xl font-bold">Cari</button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white/5 border border-white/10 p-6 rounded-[2rem] hover:bg-white/10 transition group">
+                    <div class="flex justify-between items-start mb-6">
+                        <span class="bg-blue-500/20 text-blue-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase">Konstruksi</span>
+                        <i class="fas fa-external-link-alt text-white/20 group-hover:text-yellow-500 transition"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">PT. Sinergi Vokasi</h4>
+                    <p class="text-white/50 text-sm mb-6">Penyedia jasa konstruksi sipil dan interior skala nasional.</p>
+                    <div class="pt-6 border-t border-white/10 flex justify-between items-center">
+                        <span class="text-xs font-semibold">Jakarta, Indonesia</span>
+                        <button class="text-yellow-500 font-bold text-sm">Lihat Profil</button>
+                    </div>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-6 rounded-[2rem] hover:bg-white/10 transition group">
+                    <div class="flex justify-between items-start mb-6">
+                        <span class="bg-green-500/20 text-green-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase">Teknologi</span>
+                        <i class="fas fa-external-link-alt text-white/20 group-hover:text-yellow-500 transition"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Digital Kreatif ID</h4>
+                    <p class="text-white/50 text-sm mb-6">Software house spesialis aplikasi enterprise dan mobile.</p>
+                    <div class="pt-6 border-t border-white/10 flex justify-between items-center">
+                        <span class="text-xs font-semibold">Depok, Indonesia</span>
+                        <button class="text-yellow-500 font-bold text-sm">Lihat Profil</button>
+                    </div>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-6 rounded-[2rem] hover:bg-white/10 transition group">
+                    <div class="flex justify-between items-start mb-6">
+                        <span class="bg-orange-500/20 text-orange-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase">Food & Bev</span>
+                        <i class="fas fa-external-link-alt text-white/20 group-hover:text-yellow-500 transition"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Kopi Alumni PNJ</h4>
+                    <p class="text-white/50 text-sm mb-6">Franchise kopi kekinian dengan konsep pemberdayaan alumni.</p>
+                    <div class="pt-6 border-t border-white/10 flex justify-between items-center">
+                        <span class="text-xs font-semibold">Bogor, Indonesia</span>
+                        <button class="text-yellow-500 font-bold text-sm">Lihat Profil</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white py-12 border-t border-slate-100">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-blue-900 rounded-lg flex items-center justify-center text-white font-bold text-lg">I</div>
+                <p class="font-bold text-blue-900 italic">IKAPUNIJA <span class="text-yellow-600">Entrepreneurship</span></p>
+            </div>
+            <p class="text-slate-400 text-sm">© 2026 Bidang Komunitas Pengusaha IKAPUNIJA. All Rights Reserved.</p>
+            <div class="flex space-x-6 text-slate-400">
+                <a href="#" class="hover:text-blue-900"><i class="fab fa-instagram text-xl"></i></a>
+                <a href="#" class="hover:text-blue-900"><i class="fab fa-linkedin text-xl"></i></a>
+                <a href="#" class="hover:text-blue-900"><i class="fas fa-envelope text-xl"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const nav = document.getElementById('navbar');
+            const logoText = document.getElementById('logo-text');
+            const navLinks = document.getElementById('nav-links');
+            
+            if (window.scrollY > 50) {
+                nav.classList.add('glass-nav', 'shadow-lg');
+                nav.classList.remove('py-4');
+                nav.classList.add('py-3');
+                logoText.classList.remove('text-white');
+                logoText.classList.add('text-blue-900');
+                navLinks.classList.remove('text-white');
+                navLinks.classList.add('text-slate-600');
+            } else {
+                nav.classList.remove('glass-nav', 'shadow-lg');
+                nav.classList.remove('py-3');
+                nav.classList.add('py-4');
+                logoText.classList.add('text-white');
+                logoText.classList.remove('text-blue-900');
+                navLinks.classList.add('text-white');
+                navLinks.classList.remove('text-slate-600');
+            }
+        });
+    </script>
+</body>
+</html>
